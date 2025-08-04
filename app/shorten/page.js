@@ -50,19 +50,18 @@ const Shorten = () => {
     <main className="min-h-[calc(100vh-100px)] p-4 flex items-center justify-center bg-transparent">
       <ToastContainer theme="dark" />
 
-      <div className="w-full max-w-2xl bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/10 shadow-md shadow-black/30">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold text-white mb-6">
+      <div className="w-full max-w-xl bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/10 shadow-md shadow-black/30">
+        <h1 className="text-center text-2xl sm:text-3xl font-bold text-white mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
           🔗 Generate Your Short URLs
         </h1>
 
-        {/* Input Fields */}
         <div className="flex flex-col gap-4">
           <input
             type="url"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             placeholder="Enter your long URL"
-            className="w-full py-2.5 px-4 bg-blue-500/70 text-white placeholder-white/60 rounded-lg outline-none focus:ring-2 focus:ring-blue-300 text-sm sm:text-base"
+            className="w-full py-2.5 px-4 bg-blue-500/70 text-white hover:scale-104 transition-transform duration-300 ease-in-out placeholder-white/60 rounded-lg outline-none focus:ring-2 focus:ring-blue-300 text-sm sm:text-base"
           />
 
           <input
@@ -70,18 +69,18 @@ const Shorten = () => {
             value={shortUrl}
             onChange={(e) => setShortUrl(e.target.value)}
             placeholder="Custom short path "
-            className="w-full py-2.5 px-4 bg-blue-500/70 text-white placeholder-white/60 rounded-lg outline-none focus:ring-2 focus:ring-blue-300 text-sm sm:text-base"
+            className="w-full py-2.5 px-4 bg-blue-500/70 text-white hover:scale-104 transition-transform duration-300 ease-in-out placeholder-white/60 rounded-lg outline-none focus:ring-2 focus:ring-blue-300 text-sm sm:text-base"
           />
 
           <button
             onClick={generate}
-            className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-medium py-2.5 rounded-lg transition-all text-sm sm:text-base"
+            className="w-full bg-gradient-to-r hover:scale-104 duration-300 ease-in-out from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-medium py-2.5 rounded-lg transition-all text-sm sm:text-base"
           >
             Generate
           </button>
         </div>
 
-        {/* Generated Link */}
+
         {generated && (
           <div className="mt-6 text-center">
             <p className="text-white font-medium text-base sm:text-lg mb-2">

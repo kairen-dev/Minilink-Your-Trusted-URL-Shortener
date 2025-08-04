@@ -70,7 +70,7 @@ const Navbar = () => {
                     pathname === link.href
                       ? "text-blue-300 font-semibold underline"
                       : "text-white hover:text-blue-200"
-                  }`}
+                  } hover:scale-108 transition-transform duration-300 ease-in-out`}
                 >
                   {link.name}
                 </Link>
@@ -81,12 +81,12 @@ const Navbar = () => {
           {/* Buttons */}
           <div className="flex flex-col md:flex-row gap-3 mt-4 md:mt-0 md:ml-6">
             <Link href="https://github.com/Naveed-Bhatti1/Minilink-Your-Trusted-URL-Shortener">
-              <button className="w-full md:w-auto text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-all">
+              <button className="w-full md:w-auto text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-all hover:scale-106 cursor-pointer  duration-300 ease-in-out">
                 GitHub
               </button>
             </Link>
             <Link href="/shorten">
-              <button className="w-full md:w-auto text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-all">
+              <button className="w-full md:w-auto text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-all hover:scale-106 cursor-pointer  duration-300 ease-in-out">
                 Try Now
               </button>
             </Link>
