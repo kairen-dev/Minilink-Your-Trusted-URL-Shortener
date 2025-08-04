@@ -17,19 +17,19 @@ export default function ContactPage() {
           <div className="flex flex-col items-start gap-4 text-left text-gray-200 text-sm">
             <div className="flex items-center gap-2">
               <FaEnvelope className="text-blue-300" />
-              <Link href="mailto:codeholder1@gmail.com" className="hover:underline">
-                codeholder1@gmail.com
+              <Link href="mailto:codewithkairen@gmail.com" className="hover:underline">
+                codewithkairen@gmail.com
               </Link>
             </div>
         
             <div className="flex items-center gap-2">
               <FaGithub className="text-gray-400" />
               <Link
-                href="https://github.com/Naveed-Bhatti1"
+                href="https://github.com/kairen-dev"
                 target="_blank"
                 className="hover:underline"
               >
-                github.com/Naveed-Bhatti1
+                github.com/kairen-dev
               </Link>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function ContactPage() {
         
 
         <p className="mt-6 text-sm text-gray-400">
-          Built with ❤️ by Naveed — powered by Next.js 15 & Tailwind CSS.
+          Built with ❤️ by Kai Ren — powered by Next.js 15 & Tailwind CSS.
         </p>
       </section>
     </main>
