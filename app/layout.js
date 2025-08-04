@@ -16,6 +16,9 @@ export const metadata = {
   title: "MiniLink – Your Trusted URL Shortener",
   description:
     "MiniLink is a secure and reliable URL shortening service built with Next.js 15. Easily shorten long links and share them with confidence.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
