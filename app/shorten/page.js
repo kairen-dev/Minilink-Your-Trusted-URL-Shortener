@@ -51,7 +51,7 @@ const Shorten = () => {
       <ToastContainer theme="dark" />
 
       <div className="w-full max-w-xl bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/10 shadow-md shadow-black/30">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold text-white mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <h1 className="text-center text-2xl sm:text-3xl font-bold cursor-context-menu text-white mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
           🔗 Generate Your Short URLs
         </h1>
 
@@ -74,7 +74,7 @@ const Shorten = () => {
 
           <button
             onClick={generate}
-            className="w-full bg-gradient-to-r hover:scale-104 duration-300 ease-in-out from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-medium py-2.5 rounded-lg transition-all text-sm sm:text-base"
+            className="w-full bg-gradient-to-r cursor-pointer hover:scale-104 duration-300 ease-in-out from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-medium py-2.5 rounded-lg transition-all text-sm sm:text-base"
           >
             Generate
           </button>
@@ -97,7 +97,7 @@ const Shorten = () => {
               </Link>
               <button
                 onClick={copyToClipboard}
-                className="text-xs sm:text-sm text-white border border-blue-400 px-3 py-1.5 rounded-md hover:bg-blue-600 transition"
+                className="text-xs sm:text-sm text-white border border-blue-400 px-3 py-1.5 rounded-md hover:scale-105 cursor-pointer  duration-300 ease-in-out hover:bg-blue-600 transition"
               >
                 Copy
               </button>

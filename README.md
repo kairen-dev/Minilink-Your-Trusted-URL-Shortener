@@ -2,7 +2,7 @@
 
 MiniLink is a modern, full-stack URL shortening service built with **Next.js 15**, **MongoDB**, and **Tailwind CSS**. It allows users to shorten long URLs into clean, easy-to-share links — with a blazing fast redirect experience and elegant UI.
 
-🚀 **Live Now:** [https://minilink-flame.vercel.app](https://minilink-flame.vercel.app)
+🚀 **Live Now:** [https://minilink-beta.vercel.app](https://minilink-beta.vercel.app)
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-blue?logo=nextdotjs)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
